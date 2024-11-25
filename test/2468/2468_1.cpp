@@ -34,9 +34,10 @@ int get_safety_zone(int height) {
     int safety_cnt = 0;
 
     // 방문 배열 초기화
-    for (int i = 0; i < N*N; i++) {
-        visited[i/N][i%N] = 0;
-    }    
+    // for (int i = 0; i < N*N; i++) {
+    //     visited[i/N][i%N] = 0;
+    // }
+    
     
     for (int i = 0; i < N*N; i++) {
         int row = i/N;
